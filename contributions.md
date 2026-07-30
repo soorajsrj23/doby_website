@@ -23,10 +23,6 @@ flowchart LR
 
 Create your own copy of the repository on GitHub.
 
-Visit:
-
-> https://github.com/soorajsrj23/doby_website
-
 Click the **Fork** button in the top-right corner.
 
 Result:
@@ -136,83 +132,7 @@ gitGraph
 
 ---
 
-# Step 5 — Review the Project Setup
-
-Understand how the project is built before making changes.
-
-## If `package.json` exists
-
-This is a JavaScript/Node.js project.
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run development server:
-
-```bash
-npm run dev
-```
-
-or
-
-```bash
-npm start
-```
-
----
-
-## If `requirements.txt` exists
-
-Python project.
-
-Create virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate:
-
-### Windows
-
-```bash
-.venv\Scripts\activate
-```
-
-### macOS/Linux
-
-```bash
-source .venv/bin/activate
-```
-
-Install packages:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Always Read
-
-```
-README.md
-```
-
-It usually contains:
-
-- Installation instructions
-- Project architecture
-- Contribution rules
-- Coding standards
-- Environment variables
-
----
-
-# Step 6 — Make Changes
+# Step 5— Make Changes
 
 Implement your:
 
@@ -264,9 +184,7 @@ Now your branch exists online.
 
 Visit the original repository:
 
-> https://github.com/soorajsrj23/doby_website
-
-GitHub usually displays a yellow notification:
+GitHub usually displays a notification:
 
 ```
 Compare & Pull Request
@@ -335,121 +253,3 @@ git push origin main
 ```
 
 ---
-
-# Best Practices
-
-## ✔ Check Existing Issues
-
-Before starting work:
-
-- Open the **Issues** tab.
-- Ensure someone else is not already working on the same task.
-- Read any discussion related to the issue.
-
----
-
-## ✔ Keep Pull Requests Small
-
-Good:
-
-- One bug fix
-- One feature
-- One documentation update
-
-Avoid combining unrelated changes into a single PR.
-
----
-
-## ✔ Use Meaningful Commit Messages
-
-Examples:
-
-```text
-Fix: Mobile navigation overlap
-
-Feature: Add testimonials section
-
-Refactor: Simplify authentication logic
-
-Docs: Improve installation instructions
-
-Style: Update button spacing
-```
-
----
-
-## ✔ Test Before Pushing
-
-Always verify:
-
-- Project builds successfully.
-- No console errors.
-- No failing tests.
-- UI behaves correctly.
-
----
-
-## ✔ Follow Project Style
-
-Respect the project's:
-
-- Folder structure
-- Naming conventions
-- Formatting rules
-- Linting configuration
-
----
-
-# Common Git Commands
-
-| Purpose          | Command                        |
-| ---------------- | ------------------------------ |
-| Clone repository | `git clone URL`                |
-| Check remotes    | `git remote -v`                |
-| Create branch    | `git checkout -b feature/name` |
-| View branches    | `git branch`                   |
-| Stage changes    | `git add .`                    |
-| Commit           | `git commit -m "message"`      |
-| Push             | `git push origin branch-name`  |
-| Fetch upstream   | `git fetch upstream`           |
-| Merge upstream   | `git merge upstream/main`      |
-
----
-
-# Quick Reference
-
-```text
-1. Fork Repository
-        ↓
-2. Clone Your Fork
-        ↓
-3. Add Upstream
-        ↓
-4. Create Feature Branch
-        ↓
-5. Install Dependencies
-        ↓
-6. Make Changes
-        ↓
-7. git add .
-        ↓
-8. git commit
-        ↓
-9. git push
-        ↓
-10. Create Pull Request
-```
-
----
-
-# Summary
-
-Following this workflow ensures that:
-
-- Your work remains isolated from the main branch.
-- Your fork stays synchronized with the original repository.
-- Contributions are easier to review.
-- Pull requests remain clean and maintainable.
-- Collaboration with project maintainers is smooth and efficient.
-
-Happy Contributing! 🚀
